@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    background-image: url("Images/homeBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+ul {
+    list-style: none;
+}
+
+
+nav {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.bar {
+    display: inline-block;
+    margin-left: 10px;
+    width: 2em;
+}
+
+i {
+    width: 20%;
+    color: black;
+}
+
+.explore {
+    text-align: center;
+    margin: 5em 1em;
+}
+
+.explore h1 {
+    font-size: 45px;
+}
+
+.explore p {
+    margin: 2em 0 2em 0;
+    font-weight: 400;
+}
+
+.explore-btn {
+    color: black;
+    padding: 20px 50px;
+    background-image: linear-gradient( to right, #673AB7, pink);
+    border: 1px solid white;
+    border-radius: 35px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blog-container {
+    color: black;
+    width: 90%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr  1fr ;
+    grid-template-rows: 2fr 1fr;
+
+    
+}
+
+.blog-container img {
+    position: relative;
+    height: 95%;
+    width: 75%;
+    padding: 5px 10px;
+    grid-row: 1/ -1;
+    grid-column: 1/2;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+.blog-title {
+    grid-column: 2/3;
+
+}
+
+.blog-content {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
